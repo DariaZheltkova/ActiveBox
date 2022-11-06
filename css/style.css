@@ -4,13 +4,13 @@ body {
   font-size: 14px;
   color: #898e94;
   background-color: #fff;
-  -webkit-font-smoothing: antialiased; /* Свойство, сглаживающее шрифт */
+  -webkit-font-smoothing: antialiased; 
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box; /* Алгоритм подсчета размера блоков; отступы не будут влиять на размер блока */
+  box-sizing: border-box; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,7 +27,7 @@ p {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* Выравниваем контейнер по центру */
+  margin: 0 auto; 
   padding: 0 15px;
 }
 
@@ -84,7 +84,8 @@ p {
   margin-right: 0;
 }
 
-.nav_link:hover {
+.nav_link:hover,
+.nav_link:focus{
   opacity: 1;
   color: #ccc;
   text-decoration: underline;
