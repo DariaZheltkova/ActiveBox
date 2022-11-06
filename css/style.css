@@ -84,8 +84,13 @@ p {
   margin-right: 0;
 }
 
-.nav_link:hover,
-.nav_link:focus{
+.nav_link:hover {
+  opacity: 1;
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.nav_link:focus {
   outline: none;
   opacity: 1;
   color: #ccc;
