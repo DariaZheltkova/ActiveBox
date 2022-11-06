@@ -86,6 +86,7 @@ p {
 
 .nav_link:hover,
 .nav_link:focus{
+  outline: none;
   opacity: 1;
   color: #ccc;
   text-decoration: underline;
