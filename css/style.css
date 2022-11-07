@@ -624,6 +624,10 @@ p {
     .nav_link {
         padding: 9px 15px;
     }
+  
+    .nav_link:last-child {
+        margin-right: 55px;
+    }
 
     .nav.show{
         display: flex;
