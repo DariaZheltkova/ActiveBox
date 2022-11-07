@@ -2,7 +2,7 @@ $(function (){
 
    /* Fixed Header */
 
-   let header = $("#header"); // объявляем переменную header; в ней будет храниться селектор header
+   let header = $("#header"); 
    let intro = $("#intro");
    let introH = intro.innerHeight();;
    let scrollPos = $(window).scrollTop();
@@ -19,7 +19,6 @@ $(function (){
 
     scrollPos = $(this).scrollTop();
     checkScroll(scrollPos, introH);
-   
     }
    );
 
@@ -32,13 +31,11 @@ $(function (){
         header.removeClass("fixed");
     }
    }
-   
-   //header.addClass("fixed"); // придаем переменной класс "fixed" через метод addClass
     
    /* Smooth Scroll */
 
    $("[data-scroll]").on("click", function(event) {
-    event.preventDefault(); // отменяем стандортное поведение при клике на ссылку
+    event.preventDefault(); 
  
     let elementID = $(this).data('scroll');
     let elementOffset = $(elementID).offset().top;
